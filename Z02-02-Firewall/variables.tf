@@ -14,6 +14,6 @@ variable "password" {
 # Before run terraform apply/plan setup sys variable $Env:TF_VAR_subscription_id
 variable "subscriptionid" {
   type        = string
-  #description = "Before run this tf script setup following sys variable $Env:TF_VAR_vmname = \"your azure subscription id\""
+  #description = "Before run this tf script setup following sys variable $Env:TF_VAR_subscriptionid = \"your azure subscription id\""
   default = "wrong sub id"
 }
