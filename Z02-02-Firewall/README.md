@@ -12,3 +12,8 @@ terraform plan
 terraform apply
 terraform apply -auto-approve
 ```
+
+To destroy azure resources built by this script
+```
+terraform destroy
+```
