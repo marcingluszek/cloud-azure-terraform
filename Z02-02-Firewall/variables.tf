@@ -17,3 +17,8 @@ variable "subscriptionid" {
   #description = "Before run this tf script setup following sys variable $Env:TF_VAR_subscriptionid = \"your azure subscription id\""
   default = "wrong sub id"
 }
+
+variable "mypublicip" {
+  type        = string
+  default = "wrong mypublicip"
+}
