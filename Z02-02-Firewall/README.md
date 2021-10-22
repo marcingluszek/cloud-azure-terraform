@@ -3,3 +3,11 @@ Before you run this script setup the powershell variable with Azure Subscription
 ```
 $Env:TF_VAR_vmname = "your azure subscription id"
 ```
+
+To run this script:
+```
+terraform init
+terraform plan
+terraform apply
+terraform apply -auto-approve
+```
