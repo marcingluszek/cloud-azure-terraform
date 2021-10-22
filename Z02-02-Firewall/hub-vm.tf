@@ -22,7 +22,7 @@ resource "azurerm_network_security_group" "hub-vm-nsg" {
         source_port_range          = "*"
         destination_port_range     = "22"
         source_address_prefix      = var.mypublicip #dopisac mój adres ip
-        destination_address_prefix = "*" #dopisać adres maszynki jaka powstała czyli public adrs ip
+        destination_address_prefix = azurerm_public_ip.hub-vm-public-ip.ip_address #dopisać adres maszynki jaka powstała czyli public adrs ip
     }
 }
 
