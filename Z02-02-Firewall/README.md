@@ -1,7 +1,7 @@
 # cloud-azure-terraform
 Before you run this script setup following powershell variables:
 ```
-$Env:TF_VAR_subscriptionid = "your azure subscription id"
+$Env:TF_VAR_subscriptionid = "your Azure subscription id"
 $Env:TF_VAR_mypublicip = "your PUBLIC ip"
 ```
 
@@ -13,7 +13,7 @@ terraform apply
 terraform apply -auto-approve
 ```
 
-To destroy azure resources built by this script
+To destroy azure resources built by this script:
 ```
 terraform destroy
 ```
